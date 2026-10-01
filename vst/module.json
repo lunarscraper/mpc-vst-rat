@@ -1,0 +1,12 @@
+{
+  "_comment": "Not a real Schwung module -- chain_params lists the VST parameters of rat_vst.cpp so mpc-vst-plugins' tools/gen_vst.py can generate params.h + the skin. Keys must match rat_vst.cpp. Start values the plugin sets itself (start_values()).",
+  "chain_params": [
+    { "key": "dist",   "name": "Distortion", "min": 0, "max": 100 },
+    { "key": "filter", "name": "Filter",     "min": 0, "max": 100 },
+    { "key": "volume", "name": "Volume",     "min": 0, "max": 100 },
+    { "key": "diodes", "name": "Diodes",     "options": ["RAT", "TURBO", "GE", "OP-AMP"] },
+    { "key": "ruetz",  "name": "Ruetz",      "options": ["OFF", "ON"] },
+    { "key": "input",  "name": "Input",      "min": -12, "max": 12 },
+    { "key": "mix",    "name": "Mix",        "min": 0, "max": 100 }
+  ]
+}
