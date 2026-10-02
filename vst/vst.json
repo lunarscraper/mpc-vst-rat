@@ -6,6 +6,7 @@
   "so": "rat.so",
   "module": "module.json",
   "layout": "layout.conf",
+  "title_font": "fonts/TitilliumWeb-SemiBold.ttf",
   "effect": true,
   "_comment": "Insert effect: a ProCo RAT modelled from its circuit (rat_core.h). \"effect\": true makes gen_vst.py list it as an insert effect (as in mpc-vst-faderfx). vst.json/module.json only feed mpc-vst-plugins' tools/gen_vst.py for params.h + the skin. The plugin is rat_vst.cpp, built by this port's own build.sh."
 }
